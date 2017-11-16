@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1505268341780" stop="1505268378441">
+	<name>Protractor Demo App</name>
+	<title>Protractor Demo App</title>
+	<test-cases>
+		<test-case start="1505268341781" stop="1505268355521" status="failed">
+			<name>Open Application </name>
+			<title>Open Application </title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="4ad69808-9a73-4ba5-99db-c277967efec9-attachment.png" type="image/png" size="24087"/>
+			</attachments>
+			<failure>
+				<message>Error: Error while waiting for Protractor to sync with the page: &quot;window.angular is undefined.  This could be either because this is a non-angular page or because your test involves client-side navigation, which can interfere with Protractor&apos;s bootstrapping.  See http://git.io/v4gXM for details&quot;</message>
+				<stack-trace>Error: Error while waiting for Protractor to sync with the page: &quot;window.angular is undefined.  This could be either because this is a non-angular page or because your test involves client-side navigation, which can interfere with Protractor&apos;s bootstrapping.  See http://git.io/v4gXM for details&quot;
+    at runWaitForAngularScript.then (C:\Users\santhosh.250137\AppData\Roaming\npm\node_modules\protractor\lib\browser.ts:653:19)
+    at ManagedPromise.invokeCallback_ (C:\Users\santhosh.250137\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1366:14)
+    at TaskQueue.execute_ (C:\Users\santhosh.250137\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2970:14)
+    at TaskQueue.executeNext_ (C:\Users\santhosh.250137\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2953:27)
+    at asyncRun (C:\Users\santhosh.250137\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2813:27)
+    at C:\Users\santhosh.250137\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:676:7
+    at process._tickCallback (internal/process/next_tick.js:109:7)Error
+    at ElementArrayFinder.applyAction_ (C:\Users\santhosh.250137\AppData\Roaming\npm\node_modules\protractor\lib\element.ts:482:23)
+    at ElementArrayFinder.(anonymous function) [as click] (C:\Users\santhosh.250137\AppData\Roaming\npm\node_modules\protractor\lib\element.ts:96:21)
+    at ElementFinder.(anonymous function) [as click] (C:\Users\santhosh.250137\AppData\Roaming\npm\node_modules\protractor\lib\element.ts:873:14)
+    at Suite.&lt;anonymous&gt; (D:\NodeJS\Protractor\specs\SMXPlus.js:102:37)
+    at addSpecsToSuite (C:\Users\santhosh.250137\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1013:25)
+    at Env.describe (C:\Users\santhosh.250137\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:980:7)
+    at describe (C:\Users\santhosh.250137\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4163:18)
+    at Object.&lt;anonymous&gt; (D:\NodeJS\Protractor\specs\SMXPlus.js:5:1)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)</stack-trace>
+			</failure>
+		</test-case>
+		<test-case start="1505268355522" stop="1505268365283" status="passed">
+			<name>Enter user name &amp; pwd and click login</name>
+			<title>Enter user name &amp; pwd and click login</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="1ea24cf1-c756-4edf-9f49-35b694df9eda-attachment.png" type="image/png" size="304321"/>
+			</attachments>
+		</test-case>
+		<test-case start="1505268365283" stop="1505268375703" status="passed">
+			<name>Select a Customer</name>
+			<title>Select a Customer</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="71237f68-06d3-4e41-9429-4a8cecdf3d23-attachment.png" type="image/png" size="210182"/>
+			</attachments>
+		</test-case>
+		<test-case start="1505268375703" stop="1505268376989" status="passed">
+			<name>Create New Order</name>
+			<title>Create New Order</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="62e22710-4a13-4ab3-a9ed-ce5a84e94706-attachment.png" type="image/png" size="255394"/>
+			</attachments>
+		</test-case>
+		<test-case start="1505268376989" stop="1505268378439" status="passed">
+			<name>Enter Order Details On CNOM</name>
+			<title>Enter Order Details On CNOM</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="9d28e8b1-1d83-416d-abbd-e1b9e0b27c6f-attachment.png" type="image/png" size="110671"/>
+			</attachments>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

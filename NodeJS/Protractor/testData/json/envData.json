@@ -1,0 +1,18 @@
+{
+  "url": {
+    "QA": "https://myproj-ui-qa.aws.na.myproj.net/login",
+    "DEV": "http://myproj-ui-dev.aws.na.myproj.net/login"
+  },
+  "saUserName": {
+    "QA": "santhoshsa",
+    "DEV": "santhoshsa"
+  },
+  "saPassword": {
+    "QA": "sysco123",
+    "DEV": "sysco123"
+  },
+  "customer000018": {
+    "QA": "000018",
+    "DEV": "000018"
+  }
+}

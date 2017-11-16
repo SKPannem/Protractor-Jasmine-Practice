@@ -1,0 +1,6 @@
+[
+  {
+    "QA": "Dev",
+    "https://myproj-ui-qa.aws.na.myproj.net/login": "https://myproj-ui-dev.aws.na.myproj.net/login"
+  }
+]

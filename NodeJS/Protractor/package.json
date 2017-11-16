@@ -1,0 +1,25 @@
+{
+  "name": "protractor_test",
+  "version": "1.0.0",
+  "description": "Test Automation using protractor",
+  "main": "config.js",
+  "scripts": {
+    "test": "protractor config.js"
+  },
+  "keywords": [
+    "protractor",
+    "jasmine"
+  ],
+  "author": "Venkat",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-angular-protractor": "0.0.5",
+    "grunt-contrib-jshint": "^1.1.0",
+    "jasmine-allure-reporter": "^1.0.1",
+    "jasmine-reporters": "^2.2.1",
+    "jasmine-spec-reporter": "^4.2.0",
+    "protractor": "^5.1.2",
+    "xlsx2json": "https://github.com/koalaylj/xlsx2json.git"
+  }
+}
